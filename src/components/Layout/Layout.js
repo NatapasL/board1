@@ -1,5 +1,5 @@
 import { Container, Background } from './styled'
-import SideBar from '../SideBar'
+import { SideBar } from '../SideBar'
 import { TopBar } from '../TopBar'
 
 export const Layout = ({ children }) => {
