@@ -33,7 +33,7 @@ export const TopBar = observer(() => {
       <BreadcrumbContainer>
         {currentBoard && (
           <>
-            <Link href="/[board]" as={`/${currentBoard.slug}`} passHref>
+            <Link href="/boards/[board]" as={`/boards/${currentBoard.slug}`} passHref>
               <BreadcrumbLabel>
                 {currentBoard.slug}
               </BreadcrumbLabel>

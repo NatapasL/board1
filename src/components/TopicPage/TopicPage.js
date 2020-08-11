@@ -28,7 +28,7 @@ export const TopicPage = observer(({ posts, isRecent }) => {
 
     return (
       <ButtonContainer center={center}>
-        <Link href="/[board]/[topic]" as={`/${board.slug}/${topic.id}`} passHref>
+        <Link href="/boards/[board]/[topic]" as={`/boards/${board.slug}/${topic.id}`} passHref>
           <Button type="see_all">
             + ALL POSTS
           </Button>

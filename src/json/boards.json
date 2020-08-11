@@ -1,0 +1,243 @@
+[
+  {
+    "type": "board",
+    "id": 2,
+    "description": "บอร์ดสำหรับพูดคุยเรื่องอนิเมะ หรือมังงะ",
+    "settings": {
+      "name": "Nameless Fanboi",
+      "use_ident": true,
+      "max_posts": 1000,
+      "post_delay": 10,
+      "expire_duration": 365
+    },
+    "slug": "animanga",
+    "status": "open",
+    "title": "Anime & Manga",
+    "path": "/api/1.0/boards/animanga/"
+  },
+  {
+    "type": "board",
+    "id": 10,
+    "description": "บอร์ดพูดคุยในประเด็นเกี่ยวกับ Boys\\' Love และหัวข้อที่เกี่ยวข้อง",
+    "settings": {
+      "name": "Nameless Fanboi",
+      "use_ident": true,
+      "max_posts": 1000,
+      "post_delay": 10,
+      "expire_duration": 0
+    },
+    "slug": "801",
+    "status": "open",
+    "title": "Boys\\' Love",
+    "path": "/api/1.0/boards/801/"
+  },
+  {
+    "type": "board",
+    "id": 3,
+    "description": "บอร์ดสำหรับสนทนาเรื่องเกม เกมออนไลน์ หรือเกมคอนโซลอื่นๆ",
+    "settings": {
+      "name": "Nameless Fanboi",
+      "use_ident": true,
+      "max_posts": 1000,
+      "post_delay": 10,
+      "expire_duration": 365
+    },
+    "slug": "game",
+    "status": "open",
+    "title": "Game",
+    "path": "/api/1.0/boards/game/"
+  },
+  {
+    "type": "board",
+    "id": 16,
+    "description": "บอร์ดสำหรับพูดคุยเรื่องเกิร์ลกรุ๊ป",
+    "settings": {
+      "name": "Nameless Fanboi",
+      "use_ident": true,
+      "max_posts": 1000,
+      "post_delay": 60,
+      "expire_duration": 0
+    },
+    "slug": "girlg",
+    "status": "open",
+    "title": "Girl Group",
+    "path": "/api/1.0/boards/girlg/"
+  },
+  {
+    "type": "board",
+    "id": 5,
+    "description": "บอร์ดสำหรับพูดคุยในเรื่องเพศศึกษา",
+    "settings": {
+      "name": "Nameless Fanboi",
+      "use_ident": true,
+      "max_posts": 1000,
+      "post_delay": 10,
+      "expire_duration": 45
+    },
+    "slug": "karma",
+    "status": "open",
+    "title": "Karma",
+    "path": "/api/1.0/boards/karma/"
+  },
+  {
+    "type": "board",
+    "id": 9,
+    "description": "บอร์ดสำหรับพูดคุยเรื่องการใช้ชีวิต ดูแลสุขภาพ ปรึกษาปัญหา ฯลฯ",
+    "settings": {
+      "name": "Nameless Fanboi",
+      "use_ident": true,
+      "max_posts": 1000,
+      "post_delay": 10,
+      "expire_duration": 0
+    },
+    "slug": "lifestyle",
+    "status": "open",
+    "title": "Lifestyle",
+    "path": "/api/1.0/boards/lifestyle/"
+  },
+  {
+    "type": "board",
+    "id": 12,
+    "description": "บอร์ดสำหรับพูดคุยเรื่องไลท์โนเวล",
+    "settings": {
+      "name": "Nameless Fanboi",
+      "use_ident": true,
+      "max_posts": 1000,
+      "post_delay": 10,
+      "expire_duration": 0
+    },
+    "slug": "lightnovel",
+    "status": "open",
+    "title": "Light Novel",
+    "path": "/api/1.0/boards/lightnovel/"
+  },
+  {
+    "type": "board",
+    "id": 11,
+    "description": "บอร์ดสำหรับพูดคุยเกี่ยวกับนิยายและวรรณกรรมทั่วไป",
+    "settings": {
+      "name": "Nameless Fanboi",
+      "use_ident": true,
+      "max_posts": 1000,
+      "post_delay": 10,
+      "expire_duration": 0
+    },
+    "slug": "literature",
+    "status": "open",
+    "title": "Literature",
+    "path": "/api/1.0/boards/literature/"
+  },
+  {
+    "type": "board",
+    "id": 1,
+    "description": "บอร์ดอิสระสำหรับพูดคุยเรื่องใดก็ได้ที่หมวดที่มีอยู่ไม่ครอบคลุม",
+    "settings": {
+      "name": "Nameless Fanboi",
+      "use_ident": true,
+      "max_posts": 1000,
+      "post_delay": 10,
+      "expire_duration": 180
+    },
+    "slug": "lounge",
+    "status": "open",
+    "title": "Lounge",
+    "path": "/api/1.0/boards/lounge/"
+  },
+  {
+    "type": "board",
+    "id": 13,
+    "description": "บอร์ดสำหรับพูดคุยเรื่องภาพยนตร์หรือละคร",
+    "settings": {
+      "name": "Nameless Fanboi",
+      "use_ident": true,
+      "max_posts": 1000,
+      "post_delay": 10,
+      "expire_duration": 0
+    },
+    "slug": "movie",
+    "status": "open",
+    "title": "Motion Picture",
+    "path": "/api/1.0/boards/movie/"
+  },
+  {
+    "type": "board",
+    "id": 15,
+    "agreements": null,
+    "description": "บอร์ดสำหรับพูดคุยเรื่องดนตรีหรือวงดนตรี",
+    "settings": {
+      "name": "Nameless Fanboi",
+      "use_ident": true,
+      "max_posts": 1000,
+      "post_delay": 10,
+      "expire_duration": 0
+    },
+    "slug": "music",
+    "status": "open",
+    "title": "Music",
+    "path": "/api/1.0/boards/music/"
+  },
+  {
+    "type": "board",
+    "id": 8,
+    "description": "บอร์ดสำหรับพูดคุยเรื่องเว็บไซต์เว็บอื่นหรือบุคคลใดๆ",
+    "settings": {
+      "name": "Nameless Fanboi",
+      "use_ident": true,
+      "max_posts": 1000,
+      "post_delay": 180,
+      "expire_duration": 180
+    },
+    "slug": "netwatch",
+    "status": "open",
+    "title": "Netwatch",
+    "path": "/api/1.0/boards/netwatch/"
+  },
+  {
+    "type": "board",
+    "id": 6,
+    "description": "บอร์ดสำหรับพูดคุยเรื่องวาดรูป โดจิน คอสเพลย์ ของสะสม ฯลฯ",
+    "settings": {
+      "name": "Nameless Fanboi",
+      "use_ident": true,
+      "max_posts": 1000,
+      "post_delay": 10,
+      "expire_duration": 0
+    },
+    "slug": "subculture",
+    "status": "open",
+    "title": "Subculture",
+    "path": "/api/1.0/boards/subculture/"
+  },
+  {
+    "type": "board",
+    "id": 4,
+    "description": "บอร์ดสำหรับพูดคุยเรื่องเทคโนโลยี ซอฟท์แวร์ ฮาร์ดแวร์ แกดเจ็ตต่างๆ",
+    "settings": {
+      "name": "Nameless Fanboi",
+      "use_ident": true,
+      "max_posts": 1000,
+      "post_delay": 10,
+      "expire_duration": 0
+    },
+    "slug": "tech",
+    "status": "open",
+    "title": "Technology",
+    "path": "/api/1.0/boards/tech/"
+  },
+  {
+    "type": "board",
+    "id": 14,
+    "description": "บอร์ดสำหรับพูดคุยเกี่ยวกับนิยายที่แต่งลงบนเว็บ",
+    "settings": {
+      "name": "Nameless Fanboi",
+      "use_ident": true,
+      "max_posts": 1000,
+      "post_delay": 10,
+      "expire_duration": 0
+    },
+    "slug": "webnovel",
+    "status": "open",
+    "title": "Web Novel",
+    "path": "/api/1.0/boards/webnovel/"
+  }
+]

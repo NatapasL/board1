@@ -23,7 +23,7 @@ export const BoardPage = observer(({ topics, isAll }) => {
     if (isAll) return <div />
 
     return (
-      <Link href="/[board]" as={`/${board.slug}?all=true`} passHref>
+      <Link href="/boards/[board]" as={`/boards/${board.slug}?all=true`} passHref>
         <Button type="see_all">
           + ALL TOPICS
         </Button>
@@ -48,8 +48,8 @@ export const BoardPage = observer(({ topics, isAll }) => {
         {topics.map(topic => (
           <Link
             key={topic.id}
-            href="/[board]/[topic]"
-            as={`/${board.slug}/${topic.id}?recent=true`}
+            href="/boards/[board]/[topic]"
+            as={`/boards/${board.slug}/${topic.id}?recent=true`}
             passHref
           >
             <StyledTopicCard topic={topic} />

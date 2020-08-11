@@ -1,10 +1,10 @@
 import { useEffect, useContext } from 'react'
-import axios from 'axios'
 import { observer } from 'mobx-react-lite'
 
-import { storesContext } from '../../../contexts/storesContext'
-import { Layout } from '../../../components/Layout'
-import { TopicPage } from '../../../components/TopicPage'
+import { storesContext } from '../../../../contexts/storesContext'
+import { Layout } from '../../../../components/Layout'
+import { TopicPage } from '../../../../components/TopicPage'
+import { getApi } from '../../../../libs'
 
 export default observer(({ posts, isRecent }) => {
   const { postStore } = useContext(storesContext)
@@ -21,18 +21,13 @@ export default observer(({ posts, isRecent }) => {
 })
 
 const fetchPosts =  async topic => {
-  const { data } = await axios.post(`${process.env.HOST}/api/get`, {
-    path: `topics/${topic}/posts`
-  })
+  const data = await getApi(`topics/${topic}/posts`)
 
   return data
 }
 
 const fetchRecentPosts = async topic => {
-  const { data } = await axios.post(`${process.env.HOST}/api/get`, {
-    path: `topics/${topic}`,
-    posts: 1,
-  })
+  const data = await getApi(`topics/${topic}`, { posts: 1 })
 
   return data.posts
 }
