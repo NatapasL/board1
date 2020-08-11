@@ -12,8 +12,9 @@ import {
   BackButton,
   MenuButton,
 } from './styled'
+import { SideBar } from '../SideBar'
 
-export const TopBar = observer(() => {
+export const TopBar = observer(({ onMenuButtonClick }) => {
   const router = useRouter()
   const { boardStore, topicStore } = useContext(storesContext)
   const { board, topic } = router.query
@@ -66,10 +67,14 @@ export const TopBar = observer(() => {
         {renderBackButton()}
         {renderBreadcrumb()}
       </LeftContainer>
-      {/* <a href="#bottom">Bottom</a>
-      <MenuButton>
+      <a href="#bottom">down</a>
+      <MenuButton onClick={onMenuButtonClick}>
         Menu
-      </MenuButton> */}
+      </MenuButton>
     </Container>
   )
 })
+
+TopBar.defaultProps = {
+  onMenuButtonClick: () => {}
+}

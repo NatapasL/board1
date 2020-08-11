@@ -3,8 +3,14 @@ import { observer } from 'mobx-react-lite'
 import Link from 'next/link'
 
 import { storesContext } from '../../contexts/storesContext'
+import {
+  Container,
+  Title,
+  TitleContainer,
+  ItemContainer,
+} from './styled'
 
-export const SideBar = observer(({ active }) => {
+export const SideBar = observer(({ active, onUpdateActive }) => {
   const { boardStore } = useContext(storesContext)
 
   useEffect(() => {
@@ -17,17 +23,18 @@ export const SideBar = observer(({ active }) => {
   }
 
   return (
-    <div>
-      {active && boardStore.boardList.map(board => (
-        <div key={board.id}>
-          <Link href="/[board]" as={`/${board.slug}`}>
-            <a>
-              {board.title}
-            </a>
-          </Link>
-        </div>
+    <Container active={active}>
+      <TitleContainer>
+        <Title>List</Title>
+      </TitleContainer>
+      {boardStore.boardList.map(board => (
+        <Link key={board.id} href="/boards/[board]" as={`/boards/${board.slug}`} passHref>
+          <ItemContainer>
+            {board.title}
+          </ItemContainer>
+        </Link>
       ))}
-    </div>
+    </Container>
   )
 })
 
